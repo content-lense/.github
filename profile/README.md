@@ -1,7 +1,9 @@
-## Hi there 👋
+## Welcome to Content Lense 👋
+
+Content lense enables bloggers and publishers to analyse their digital content and generate exciting insights.
+
 
 <!--
-
 **Here are some ideas to get you started:**
 
 🙋‍♀️ A short introduction - what is your organization all about?
