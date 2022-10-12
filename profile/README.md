@@ -33,3 +33,12 @@ Analyses microservice APIs for analysing text (NLP) and image data.
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
+
+
+## Supported by
+
+- Media Tech Lab [`media-tech-lab`](https://github.com/media-tech-lab)
+
+<a href="https://www.media-lab.de/en/programs/media-tech-lab">
+    <img src="https://raw.githubusercontent.com/media-tech-lab/.github/main/assets/mtl-powered-by.png" width="240" title="Media Tech Lab powered by logo">
+</a>
