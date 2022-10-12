@@ -37,7 +37,7 @@ Analyses microservice APIs for analysing text (NLP) and image data.
 
 ## Supported by
 
-- Media Tech Lab [`media-tech-lab`](https://github.com/media-tech-lab)
+Media Tech Lab [`media-tech-lab`](https://github.com/media-tech-lab)
 
 <a href="https://www.media-lab.de/en/programs/media-tech-lab">
     <img src="https://raw.githubusercontent.com/media-tech-lab/.github/main/assets/mtl-powered-by.png" width="240" title="Media Tech Lab powered by logo">
