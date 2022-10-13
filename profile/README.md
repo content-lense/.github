@@ -10,6 +10,29 @@ There are three main parts of this project: the `frontend`, the `API backend` an
 
 ![architecture](https://user-images.githubusercontent.com/15559708/195382078-32a976dd-9ed6-465f-a208-395a9ec86b02.png)
 
+
+
+### The API backend (content-lense-api)
+https://github.com/content-lense/content-lense-api
+
+Handles authentication, manages data and importing content. This is based on the amazing [api-platform](https://github.com/api-platform/api-platform) project.
+
+
+### Frontend (content-lense-frontend)
+https://github.com/content-lense/content-lense-frontend
+
+React GUI to manage configuration, manage imported data and visualize insights.
+  
+
+### Analysis Microservices (content-lense-analysis)
+
+Currently, we plan to implement the following microservices:
+
+- Sentiment analytics (rates imported text by sentiment)
+- [Mentioned entites](https://github.com/content-lense/content-lense-mention-api) (currently, mentioned people are analyzed and enriched with wiki data information such as age or gender)
+- Text complexity (using WienerSachtextformel)
+
+
 ## How to get started
 
 - We will soon provide a very simple docker compose stack that includes latest stable builds of all parts of content lense. You will then just need to do a `docker compose up` to get up and running.
@@ -37,29 +60,6 @@ docker run -it --rm -p 5000:5000 content-lense-mentions
 - OR set the `x-auth-token` to fixture value of `33973585cd5f17cad05f1a09bb663f89`
 
 ```
-
-
-
-
-### The API backend (content-lense-api)
-https://github.com/content-lense/content-lense-api
-
-Handles authentication, manages data and importing content. This is based on the amazing [api-platform](https://github.com/api-platform/api-platform) project.
-
-
-### Frontend (content-lense-frontend)
-https://github.com/content-lense/content-lense-frontend
-
-React GUI to manage configuration, manage imported data and visualize insights.
-  
-
-### Analysis Microservices (content-lense-analysis)
-
-Currently, we plan to implement the following microservices:
-
-- Sentiment analytics (rates imported text by sentiment)
-- Mentioned entites (currently, mentioned people are analyzed and enriched with wiki data information such as age or gender)
-- Text complexity (using WienerSachtextformel)
 
 
 ## License
