@@ -43,9 +43,8 @@ git clone git@github.com:content-lense/content-lense-api.git
 cd content-lense-api
 docker compose up -f
 
-# Create the postgres database and load the fixtures via doctrine
+# Create the postgres database, load doctrine fixtures and create jwt key pairs
 ./dev_flush_db.sh
-
 
 # Checkout and start the frontend
 cd ..
