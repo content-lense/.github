@@ -38,26 +38,31 @@ Currently, we plan to implement the following microservices:
 - We will soon provide a very simple docker compose stack that includes latest stable builds of all parts of content lense. You will then just need to do a `docker compose up` to get up and running.
 - If you want to try content lense right now, please do the following:
 ```bash
-# Checkout and start the API
+# Checkout and start the API docker stack
 git clone git@github.com:content-lense/content-lense-api.git
 cd content-lense-api
 docker compose up -f
+
+# Create the postgres database and load the fixtures via doctrine
 ./dev_flush_db.sh
-cd ..
+
+
 # Checkout and start the frontend
+cd ..
 git clone git@github.com:content-lense/content-lense-frontend.git
 pnpm install
 pnpm dev &&
-cd ..
+
 # Checkout and start the mention API
+cd ..
 git clone git@github.com:content-lense/content-lense-mention-api.git
 docker build -f Docker/Dockerfile -t content-lense-mentions:latest .
 docker run -it --rm -p 5000:5000 content-lense-mentions
 
 # Open the frontend at https://localhost and login using the admin credentials
 
-- User `admin@cl.com` and password `demodemo`
-- OR set the `x-auth-token` to fixture value of `33973585cd5f17cad05f1a09bb663f89`
+- JWT login with user `admin@cl.com` and password `demodemo`
+- _OR_ set the `x-auth-token` to fixture value of `33973585cd5f17cad05f1a09bb663f89` (e.g. using the [ModHeader plugin](https://modheader.com/) for the browser of your choice)
 
 ```
 
