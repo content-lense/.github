@@ -88,3 +88,14 @@ Media Tech Lab [`media-tech-lab`](https://github.com/media-tech-lab)
 <a href="https://www.media-lab.de/en/programs/media-tech-lab">
     <img src="https://raw.githubusercontent.com/media-tech-lab/.github/main/assets/mtl-powered-by.png" width="240" title="Media Tech Lab powered by logo">
 </a>
+
+---
+
+Cloud Creators GmbH [`cloud-creators`](https://cloud-creators.de)
+
+
+<a href="https://cloud-creators.de">
+    <img src="https://cloud-creators.de/assets/images/cc-logo.svg" width="240" title="Supported by Cloud Creators GmbH">
+</a>
+
+
