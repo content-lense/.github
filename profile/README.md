@@ -62,16 +62,12 @@ docker run -it --rm -p 5000:5000 content-lense-mentions
 
 - JWT login with user `admin@cl.com` and password `demodemo`
 - _OR_ set the `x-auth-token` to fixture value of `33973585cd5f17cad05f1a09bb663f89` (e.g. using the [ModHeader plugin](https://modheader.com/) for the browser of your choice)
-
 ```
 
 
 ## License
 
-This product is licensed MIT-alike with the following restriction:
-
-- While you are more than welcome to use content lense for your own business, you may not provide a commercial cloud service for other end users (your customers).
-- We basically want to achive the same legal background as Sentry. We love their product, we love that we can use it for free - that is why there should be protections from other companies selling work without giving back.
+Content Lense is licensed under MIT.
 
 
 <!--
