@@ -30,7 +30,7 @@ Currently, we plan to implement the following microservices:
 
 - Sentiment analytics (rates imported text by sentiment)
 - [Mentioned entites](https://github.com/content-lense/content-lense-mention-api) (currently, mentioned people are analyzed and enriched with wiki data information such as age or gender)
-- Text complexity (using WienerSachtextformel)
+- [Text complexity](https://github.com/content-lense/content-lense-text-complexity) (basic statistics such as words and text length + scores such as Wiener Sachtextindex and reading time)
 
 
 ## How to get started
@@ -41,7 +41,8 @@ Currently, we plan to implement the following microservices:
 # Checkout and start the API docker stack
 git clone git@github.com:content-lense/content-lense-api.git
 cd content-lense-api
-docker compose up -f
+docker compose up -d
+# show logs with docker compose logs -f
 
 # Create the postgres database, load doctrine fixtures and create jwt key pairs
 ./dev_flush_db.sh
@@ -49,6 +50,7 @@ docker compose up -f
 # Checkout and start the frontend
 cd ..
 git clone git@github.com:content-lense/content-lense-frontend.git
+cd content-lense-frontend
 pnpm install
 pnpm dev &&
 
