@@ -57,6 +57,7 @@ pnpm dev &&
 # Checkout and start the mention API
 cd ..
 git clone git@github.com:content-lense/content-lense-mention-api.git
+cd content-lense-mention-api
 docker build -f Docker/Dockerfile -t content-lense-mentions:latest .
 docker run -it --rm -p 5000:5000 content-lense-mentions
 
