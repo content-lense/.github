@@ -31,6 +31,7 @@ Currently, we plan to implement the following microservices:
 - Sentiment analytics (rates imported text by sentiment)
 - [Mentioned entites](https://github.com/content-lense/content-lense-mention-api) (currently, mentioned people are analyzed and enriched with wiki data information such as age or gender)
 - [Text complexity](https://github.com/content-lense/content-lense-text-complexity) (basic statistics such as words and text length + scores such as Wiener Sachtextindex and reading time)
+- [Topic recognition](https://github.com/content-lense/content-lense-topic-detection-api) (selects topics for a text from a given list of topics based on a zero-shot classification)
 
 
 ## How to get started
@@ -60,6 +61,20 @@ git clone git@github.com:content-lense/content-lense-mention-api.git
 cd content-lense-mention-api
 docker build -f Docker/Dockerfile -t content-lense-mentions:latest .
 docker run -it --rm -p 5000:5000 content-lense-mentions
+
+# Checkout and start the text complexity API
+cd ..
+git clone git@github.com:content-lense/content-lense-text-complexity
+cd content-lense-text-complexity
+docker build -f Docker/Dockerfile -t content-lense-text-complexity:latest .
+docker run -it --rm -p 5001:5001 content-lense-text-complexity
+
+# Checkout and start the topic API
+cd ..
+git clone git@github.com:content-lense/content-lense-topic-detection-api.git
+cd content-lense-topic-detection-api
+docker build -f Docker/Dockerfile -t content-lense-topic-detection-api:latest .
+docker run -it --rm -p 5002:5002 content-lense-topic-detection-api
 
 # Open the frontend at https://localhost and login using the admin credentials
 
