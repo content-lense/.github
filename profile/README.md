@@ -8,16 +8,12 @@ Content lense enables bloggers and publishers to analyse their digital content a
 
 Some impressions of our dashboards and visualizations so far:
 
-<div style="display:flex; flex-wrap: wrap; gap: 2%">
-<img width="300" alt="Dashboard" src="https://user-images.githubusercontent.com/15559708/203947337-1a8b6f48-4929-4f08-990c-32f49e785351.png">
-<img width="300" alt="Text-Complexity" src="https://user-images.githubusercontent.com/15559708/203947351-868bdf0b-5c0b-474a-962d-b79bce4eb0d5.png">
-<img width="300" alt="Topics" src="https://user-images.githubusercontent.com/15559708/203947366-143853ae-79c5-43d7-8ae5-30baf4ce38e7.png">
-<img width="300" alt="ArticleDetails" src="https://user-images.githubusercontent.com/15559708/203947247-12d0a4b6-e462-4f62-a67d-2a4cf4d21b0c.png">
-<img width="300" alt="ArticleList" src="https://user-images.githubusercontent.com/15559708/203947328-1ee78303-1801-442f-8345-a0a51944b36a.png">
-
-
-
-
+<div style="display:flex; flex-wrap: wrap; ">
+<img style="width:300px;margin:20px;" alt="Dashboard" src="https://user-images.githubusercontent.com/15559708/203947337-1a8b6f48-4929-4f08-990c-32f49e785351.png">
+<img style="width:300px;margin:20px;" alt="Text-Complexity" src="https://user-images.githubusercontent.com/15559708/203947351-868bdf0b-5c0b-474a-962d-b79bce4eb0d5.png">
+<img  style="width:300px;margin:20px;" alt="Topics" src="https://user-images.githubusercontent.com/15559708/203947366-143853ae-79c5-43d7-8ae5-30baf4ce38e7.png">
+<img  style="width:300px;margin:20px;" alt="ArticleDetails" src="https://user-images.githubusercontent.com/15559708/203947247-12d0a4b6-e462-4f62-a67d-2a4cf4d21b0c.png">
+<img  style="width:300px;margin:20px;" alt="ArticleList" src="https://user-images.githubusercontent.com/15559708/203947328-1ee78303-1801-442f-8345-a0a51944b36a.png">
 </div>
 
 There are three main parts of this project: the `frontend`, the `API backend` and several `analytics microservices` (e.g. sentiment or mentioned people)
